@@ -1,0 +1,109 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Clean and Simple Layout */
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* High-Quality Images and Graphics */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Modern Color Scheme */
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Clear, Legible Fonts */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Incorporate Video */
+video {
+  max-width: 100%;
+}
+
+/* Optimize for Mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+.col-md-4{
+  align-content: center;
+}
+
+.col-md-6{
+  align-content: center;
+}
